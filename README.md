@@ -14,7 +14,11 @@ In container:
 ```
 roslaunch rovio rovio_node.launch
 ```
-Folder "bags" was prepared as volume to testing algorithm by using rosbags.
+Folder "bags" was prepared as volume to testing algorithm by using rosbags. In second terminal:
+```
+bash enter.sh
+rosbag play catkin_ws/bags/bagname.bag 
+```
 
 # Raspberry Pi
 To build image to run on raspberry pi, use command:
