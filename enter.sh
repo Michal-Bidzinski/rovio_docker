@@ -1,1 +1,1 @@
-docker exec -it rovio /bin/bash
+docker exec -it rovio_humble /bin/bash
